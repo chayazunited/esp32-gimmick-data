@@ -2,22 +2,22 @@
   "baseUrl": "https://raw.githubusercontent.com/chayazunited/esp32-gimmick-data/main/",
   "quotes": {
     "en": [
-      "quotes_en_1.json",
-      "quotes_en_2.json"
+      "quotes/en/quotes_en_1.json",
+      "quotes/en/quotes_en_2.json"
     ],
     "de": [
-      "quotes_de_1.json",
-      "quotes_de_2.json"
+      "quotes/de/quotes_de_1.json",
+      "quotes/de/quotes_de_2.json"
     ]
   },
   "trivia": {
     "en": [
-      "trivia_en_1.json",
-      "trivia_en_2.json"
+      "trivia/en/trivia_en_1.json",
+      "trivia/en/trivia_en_2.json"
     ],
     "de": [
-      "trivia_de_1.json",
-      "trivia_de_2.json"
+      "trivia/de/trivia_de_1.json",
+      "trivia/de/trivia_de_2.json"
     ]
   }
 }
