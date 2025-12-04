@@ -3,21 +3,25 @@
   "quotes": {
     "en": [
       "quotes/en/quotes_en_1.json",
-      "quotes/en/quotes_en_2.json"
+      "quotes/en/quotes_en_2.json",
+      "quotes/en/quotes_en_3.json"
     ],
     "de": [
       "quotes/de/quotes_de_1.json",
-      "quotes/de/quotes_de_2.json"
+      "quotes/de/quotes_de_2.json",
+      "quotes/de/quotes_de_3.json"
     ]
   },
   "trivia": {
     "en": [
       "trivia/en/trivia_en_1.json",
-      "trivia/en/trivia_en_2.json"
+      "trivia/en/trivia_en_2.json",
+      "trivia/en/trivia_en_3.json"
     ],
     "de": [
       "trivia/de/trivia_de_1.json",
-      "trivia/de/trivia_de_2.json"
+      "trivia/de/trivia_de_2.json",
+      "trivia/de/trivia_de_3.json"
     ]
   }
 }
