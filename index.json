@@ -1,43 +1,71 @@
 {
   "baseUrl": "https://raw.githubusercontent.com/chayazunited/esp32-gimmick-data/main/",
-  "quotes": {
-    "en": [
-      "quotes/en/quotes_en_1.json",
-      "quotes/en/quotes_en_2.json",
-      "quotes/en/quotes_en_3.json",
-      "quotes/en/quotes_en_4.json",
-      "quotes/en/quotes_en_5.json",
-      "quotes/en/quotes_en_6.json",
-      "quotes/en/quotes_en_7.json"
-    ],
-    "de": [
-      "quotes/de/quotes_de_1.json",
-      "quotes/de/quotes_de_2.json",
-      "quotes/de/quotes_de_3.json",
-      "quotes/de/quotes_de_4.json",
-      "quotes/de/quotes_de_5.json",
-      "quotes/de/quotes_de_6.json",
-      "quotes/de/quotes_de_7.json"
-    ]
-  },
   "trivia": {
     "en": [
-      "trivia/en/trivia_en_1.json",
-      "trivia/en/trivia_en_2.json",
-      "trivia/en/trivia_en_3.json",
-      "trivia/en/trivia_en_4.json",
-      "trivia/en/trivia_en_5.json",
-      "trivia/en/trivia_en_6.json",
-      "trivia/en/trivia_en_7.json"
+      "trivia/trivia_en_1.json",
+      "trivia/trivia_en_2.json",
+      "trivia/trivia_en_3.json",
+      "trivia/trivia_en_4.json",
+      "trivia/trivia_en_5.json",
+      "trivia/trivia_en_6.json",
+      "trivia/trivia_en_7.json"
     ],
     "de": [
-      "trivia/de/trivia_de_1.json",
-      "trivia/de/trivia_de_2.json",
-      "trivia/de/trivia_de_3.json",
-      "trivia/de/trivia_de_4.json",
-      "trivia/de/trivia_de_5.json",
-      "trivia/de/trivia_de_6.json",
-      "trivia/de/trivia_de_7.json"
+      "trivia/trivia_de_1.json",
+      "trivia/trivia_de_2.json",
+      "trivia/trivia_de_3.json",
+      "trivia/trivia_de_4.json",
+      "trivia/trivia_de_5.json",
+      "trivia/trivia_de_7.json",
+      "trivia/trivia_de_7.json"
     ]
+  },
+  "quotes": {
+    "en": [
+      "quotes/quotes_en_1.json",
+      "quotes/quotes_en_2.json",
+      "quotes/quotes_en_3.json",
+      "quotes/quotes_en_4.json",
+      "quotes/quotes_en_5.json",
+      "quotes/quotes_en_6.json",
+      "quotes/quotes_en_7.json"
+    ],
+    "de": [
+      "quotes/quotes_de_1.json",
+      "quotes/quotes_de_2.json",
+      "quotes/quotes_de_3.json",
+      "quotes/quotes_de_4.json",
+      "quotes/quotes_de_5.json",
+      "quotes/quotes_de_6.json",
+      "quotes/quotes_de_7.json"
+    ]
+  },
+  "milestones": {
+    "thresholds": [20, 40, 60, 80, 100],
+    "animations": {
+      "20": {
+        "hourly": "milestones/milestone20_hourly.anim",
+        "halfhourly": "milestones/milestone20_halfhourly.anim"
+      },
+      "40": {
+        "hourly": "milestones/milestone40_hourly.anim",
+        "halfhourly": "milestones/milestone40_halfhourly.anim"
+      },
+      "60": {
+        "hourly": "milestones/milestone60_hourly.anim",
+        "halfhourly": "milestones/milestone60_halfhourly.anim"
+      },
+      "80": {
+        "hourly": "milestones/milestone80_hourly.anim",
+        "halfhourly": "milestones/milestone80_halfhourly.anim"
+      },
+      "100": {
+        "hourly": "milestones/milestone100_hourly.anim",
+        "halfhourly": "milestones/milestone100_halfhourly.anim"
+      }
+    }
+  },
+  "busDistances": {
+    "tuebingen": "bus_distances/tuebingen_who.json"
   }
 }
